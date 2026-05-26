@@ -1,0 +1,7 @@
+INSTRUCTIONS FOR THE DEVELOPER (KAIYTHA SRINIDHI REDDY):
+
+This file is a placeholder for your actual resume PDF.
+To make the "Download Resume" button on your portfolio site work properly:
+1. Export your latest resume/CV as a PDF named "resume.pdf".
+2. Replace this file with your actual "resume.pdf" in the "public" folder of this project.
+3. Once replaced, visitors clicking the "Download Resume" button will download your real PDF resume.
