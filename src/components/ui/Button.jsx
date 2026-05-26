@@ -2,9 +2,9 @@ import { motion } from 'framer-motion';
 
 const variants = {
   primary:
-    'bg-gradient-to-r from-accent-cyan/90 to-accent-violet/90 text-white hover:shadow-glow border border-white/10',
+    'bg-gradient-to-r from-accent-cyan/90 to-accent-violet/90 text-white border border-white/10 shadow-[0_0_24px_rgba(56,189,248,0.18)] hover:shadow-[0_0_30px_rgba(124,58,237,0.24)] focus-visible:ring-2 focus-visible:ring-accent-cyan/40 focus-visible:ring-offset-2 focus-visible:ring-offset-dark',
   secondary:
-    'glass text-white hover:bg-white/[0.08] border border-white/10',
+    'glass text-white hover:bg-white/[0.10] border border-white/15 shadow-[0_0_18px_rgba(56,189,248,0.12)] focus-visible:ring-2 focus-visible:ring-accent-cyan/35 focus-visible:ring-offset-2 focus-visible:ring-offset-dark',
   ghost: 'text-gray-300 hover:text-white hover:bg-white/5',
 };
 

@@ -64,8 +64,14 @@ export default function Navbar() {
         </ul>
 
         <div className="hidden md:block">
-          <Button href={profile.resumeUrl} download variant="primary" icon={Download} className="!py-2.5 !px-5 !text-sm">
-            Resume
+          <Button
+            href={profile.resumeUrl}
+            download="Kaiytha_Srinidhi_Reddy_Resume.pdf"
+            variant="primary"
+            icon={Download}
+            className="!py-2.5 !px-5 !text-sm"
+          >
+            Download Resume
           </Button>
         </div>
 
@@ -102,7 +108,13 @@ export default function Navbar() {
                 </li>
               ))}
               <li className="pt-2">
-                <Button href={profile.resumeUrl} download variant="primary" icon={Download} className="w-full">
+                <Button
+                  href={profile.resumeUrl}
+                  download="Kaiytha_Srinidhi_Reddy_Resume.pdf"
+                  variant="primary"
+                  icon={Download}
+                  className="w-full"
+                >
                   Download Resume
                 </Button>
               </li>
