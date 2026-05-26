@@ -10,7 +10,7 @@ export const projects = [
     id: 'resume-analyzer',
     title: 'AI Resume Analyzer & Career Hub',
     description:
-      'Flask app with NLP (spaCy) for ATS scoring, career path prediction, resume rewriting, LinkedIn comparison, interview readiness, and a built-in job tracker — glassmorphism UI with 10+ modules.',
+      'A full-stack AI-driven resume analysis platform built with Flask and spaCy that evaluates ATS compatibility, predicts optimal career trajectories, rewrites resumes for keyword optimization, compares LinkedIn profiles, and prepares candidates for interviews. Includes a job tracker and a sleek glassmorphism UI, modular architecture with over ten independent components.',
     tech: ['Python', 'Flask', 'spaCy', 'NLP', 'SQLite'],
     github: 'https://github.com/Srinidhi262005/ai-resume-analyzer',
     demo: null,
@@ -23,7 +23,7 @@ export const projects = [
     id: 'promptcraft',
     title: 'PromptCraft AI — Smart Prompt Builder',
     description:
-      'Full-stack app that turns raw prompts into Role-Task-Constraint-Format instructions. Features quality scoring, template library, side-by-side comparison, and prompt history via React + Node.js.',
+      'A full-stack intelligent prompt engineering platform that transforms raw prompts into structured Role-Task-Constraint-Format instructions. Features include prompt quality scoring, a reusable template library, side‑by‑side comparison, and persistent prompt history. Built with React, Node.js, and OpenRouter for LLM integration, enabling rapid development of high‑quality AI prompts.',
     tech: ['React', 'Node.js', 'Express', 'OpenRouter'],
     github: 'https://github.com/Srinidhi262005/promptcraft-ai',
     demo: null,
@@ -36,7 +36,7 @@ export const projects = [
     id: 'ideahub',
     title: 'IdeaHub — Collaboration Platform',
     description:
-      'Flask platform connecting students, mentors, and faculty through projects, events, notifications, documents, and teams — role-based access, mentor directory, and real-time chat.',
+      'A collaborative AI‑enhanced platform that unites students, mentors, and faculty through project-based learning, event coordination, notifications, and document sharing. Implements role‑based access control, mentor directory, and real‑time chat powered by Flask and SQLAlchemy, facilitating seamless knowledge exchange and teamwork.',
     tech: ['Flask', 'SQLAlchemy', 'SQLite', 'Jinja2'],
     github: 'https://github.com/Srinidhi262005/IDEAHUB',
     demo: null,
@@ -49,7 +49,7 @@ export const projects = [
     id: 'farmse',
     title: 'FarmSe — Agribusiness Portal',
     description:
-      'Digital marketplace connecting farmers and buyers without middlemen. Includes crop listing, AI crop prediction, weather API integration, and role-based dashboards for farmers, buyers, and admins.',
+      'A full‑stack AI‑powered agribusiness marketplace that directly connects farmers with buyers, featuring AI‑driven crop yield prediction, weather forecasting integration, and role‑based dashboards for efficient farm management.',
     tech: ['Flask', 'SQLite', 'ML', 'Bootstrap'],
     github: 'https://github.com/Srinidhi262005/FarmSe-Agribusiness-Portal',
     demo: null,
