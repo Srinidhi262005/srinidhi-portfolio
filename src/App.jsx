@@ -37,7 +37,7 @@ export default function App() {
       <CursorGlow />
       <Navbar />
 
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
 
         <Suspense fallback={<SectionLoader />}>

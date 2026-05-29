@@ -5,7 +5,7 @@ export const education = [
     degree: 'B.Tech — Computer Science and Engineering (AI & ML)',
     institution: 'Jyothishmathi Institute of Technology and Science, Karimnagar',
     period: '2022 – 2026',
-    score: 'CGPA: 8.7/10',
+    score: 'CGPA: 8.80/10',
     highlight: true,
   },
   {

@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { GitBranch, Star, GitCommit } from 'lucide-react';
 import { profile } from '../../data/profile';
@@ -9,6 +10,7 @@ import SectionHeading from '../ui/SectionHeading';
  */
 export default function GitHubStats() {
   const username = profile.githubUsername;
+  const [showImages, setShowImages] = useState(true);
   const statsUrl = `https://github-readme-stats.vercel.app/api?username=${username}&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0a0a0f&title_color=22d3ee&icon_color=8b5cf6&text_color=c9d1d9`;
   const streakUrl = `https://github-readme-streak-stats.demolab.com/?user=${username}&theme=tokyonight&hide_border=true&background=0a0a0f&ring=22d3ee&fire=8b5cf6&currStreakLabel=8b5cf6`;
 
@@ -30,7 +32,7 @@ export default function GitHubStats() {
         />
 
         {/* Placeholder stats when username not configured */}
-        {username === 'yourusername' ? (
+        {username === 'yourusername' || !showImages ? (
           <div className="grid sm:grid-cols-3 gap-6 max-w-3xl mx-auto mb-10">
             {placeholderStats.map((stat, index) => {
               const Icon = stat.icon;
@@ -62,12 +64,18 @@ export default function GitHubStats() {
               src={statsUrl}
               alt="GitHub stats"
               loading="lazy"
+              decoding="async"
+              referrerPolicy="no-referrer"
+              onError={() => setShowImages(false)}
               className="rounded-2xl max-w-full"
             />
             <img
               src={streakUrl}
               alt="GitHub streak"
               loading="lazy"
+              decoding="async"
+              referrerPolicy="no-referrer"
+              onError={() => setShowImages(false)}
               className="rounded-2xl max-w-full"
             />
           </motion.div>

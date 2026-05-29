@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowDown, Github, Linkedin, Mail, Download, Briefcase } from 'lucide-react';
+import { ArrowDown, Github, Linkedin, Mail, Briefcase } from 'lucide-react';
 import { profile } from '../../data/profile';
 import Button from '../ui/Button';
 import ParticleBackground from '../ui/ParticleBackground';
@@ -108,14 +108,6 @@ export default function Hero() {
               }
             >
               View Projects
-            </Button>
-            <Button
-              variant="secondary"
-              icon={Download}
-              href={profile.resumeUrl}
-              download="Kaiytha_Srinidhi_Reddy_Resume.pdf"
-            >
-              Download Resume
             </Button>
           </motion.div>
 

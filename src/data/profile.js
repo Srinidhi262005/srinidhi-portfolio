@@ -22,19 +22,19 @@ export const profile = {
   hero: {
     greeting: "Hi, I'm",
     typingWords: [
+      'AI Developer',
       'ML Engineer',
       'NLP Specialist',
       'Full Stack Developer',
-      'Event Organizer',
     ],
-    bio: 'Passionate about AI, full-stack development, and solving real-world problems through technology.',
+    bio: 'B.Tech CSE (AI & ML) graduate building AI-powered applications and full-stack web solutions.',
   },
 
   about: {
     summary:
-      'Final-year B.Tech Computer Science and Engineering (AI & ML) student at Jyothishmathi Institute of Technology and Science with hands-on experience building machine learning and full-stack applications using Python, Flask, and SQL. Beyond code, I am deeply invested in team collaborations — organizing technical and non-technical events on campus and actively participating in competitions where teamwork and leadership matter.',
+      'Aspiring AI & Full Stack Developer with hands-on experience in building AI-powered applications, full-stack web solutions, and intelligent software systems. Passionate about AI, modern web technologies, and solving real-world problems through technology.',
     highlights: [
-      'Final-year CSE (AI & ML) student — CGPA 8.7/10',
+      'B.Tech CSE (AI & ML) graduate — CGPA 8.80/10',
       'Built production-style apps: NLP resume analyzer, AI prompt builder, agribusiness platform & more',
       'Internship experience at Edunet Foundation (AICTE), Infosys Foundation & Cisco',
       'Conducted numerous technical & non-technical events at college — leadership & coordination',
@@ -45,7 +45,7 @@ export const profile = {
       { label: 'Projects Built', value: '5+' },
       { label: 'Events Conducted', value: '10+' },
       { label: 'Competition Wins', value: '3+' },
-      { label: 'CGPA', value: '8.7' },
+      { label: 'CGPA', value: '8.80' },
     ],
     leadership: {
       title: 'Collaboration & Campus Leadership',

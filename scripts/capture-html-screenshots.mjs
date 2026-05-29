@@ -64,7 +64,7 @@ const ideahubHtml = `<!DOCTYPE html>
 <body>
   <div class="wrap">
     <h1>IdeaHub</h1>
-    <p class="sub">Collaboration platform for students, mentors & faculty</p>
+    <p class="sub">Collaboration platform for learners, mentors & faculty</p>
     <div class="grid">
       <div class="card"><h3>Projects</h3><p>Submit & explore ideas</p></div>
       <div class="card"><h3>Mentors</h3><p>Searchable directory</p></div>

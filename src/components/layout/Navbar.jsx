@@ -66,7 +66,7 @@ export default function Navbar() {
         <div className="hidden md:block">
           <Button
             href={profile.resumeUrl}
-            download="Kaiytha_Srinidhi_Reddy_Resume.pdf"
+            download
             variant="primary"
             icon={Download}
             className="!py-2.5 !px-5 !text-sm"
@@ -110,7 +110,7 @@ export default function Navbar() {
               <li className="pt-2">
                 <Button
                   href={profile.resumeUrl}
-                  download="Kaiytha_Srinidhi_Reddy_Resume.pdf"
+                  download
                   variant="primary"
                   icon={Download}
                   className="w-full"

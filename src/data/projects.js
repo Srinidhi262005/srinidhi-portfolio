@@ -36,7 +36,7 @@ export const projects = [
     id: 'ideahub',
     title: 'IdeaHub — Collaboration Platform',
     description:
-      'A collaborative AI‑enhanced platform that unites students, mentors, and faculty through project-based learning, event coordination, notifications, and document sharing. Implements role‑based access control, mentor directory, and real‑time chat powered by Flask and SQLAlchemy, facilitating seamless knowledge exchange and teamwork.',
+      'A collaborative AI‑enhanced platform that unites learners, mentors, and faculty through project-based learning, event coordination, notifications, and document sharing. Implements role‑based access control, mentor directory, and real‑time chat powered by Flask and SQLAlchemy, facilitating seamless knowledge exchange and teamwork.',
     tech: ['Flask', 'SQLAlchemy', 'SQLite', 'Jinja2'],
     github: 'https://github.com/Srinidhi262005/IDEAHUB',
     demo: null,
